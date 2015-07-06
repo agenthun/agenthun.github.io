@@ -1,5 +1,6 @@
 # Site settings
 title: 踏雪无痕d博客
+name: agenthun
 email: hun333@126.com
 url: https://agenthun.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -15,7 +16,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Henry Hu 2015
   location: Location
   social: Around the Web
   credits: Credits
@@ -35,11 +36,12 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: East China Normal University
   - line: Minhang Campus 500 Dongchuan Rd
   - line: Shanghai, CHINA
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'The blog is created by <a href="http://ironsummitmedia.github.io/startbootstrap-freelancer">Freelancer</a>.'
 
 # Build settings
 markdown: kramdown
