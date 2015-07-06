@@ -91,11 +91,8 @@ header .container {
 }
 
 header .container .row .col-lg-12 .circle {
-/*     position: absolute;
-overflow: hidden;
-display: inline-block;
-vertical-align: middle; */
-    border-radius: 50%; 
+    border-radius: 50%;
+    border: 2px solid #fff
 }
 
 header img {
