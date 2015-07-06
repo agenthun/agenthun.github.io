@@ -91,13 +91,10 @@ header .container {
 }
 
 header .container .row .col-lg-12 .circle {
-    position: absolute;
-    width: 42px;
-    height: 42px;
-    overflow: hidden;
-    left: 15px;
-    display: inline-block;
-    vertical-align: middle;
+/*     position: absolute;
+overflow: hidden;
+display: inline-block;
+vertical-align: middle; */
     border-radius: 50%; 
 }
 
