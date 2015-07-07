@@ -470,6 +470,7 @@ footer .footer-below {
   background: #{{ site.color.primary }};
   color: #fff;
   border-radius: 5px;
+  font-size: 20px;
   text-decoration: none; }
 
 .tag_box a span {
@@ -477,7 +478,8 @@ footer .footer-below {
   font-size: 0.8em; }
 
 .tag_box a:hover {
-  background-color: #e5e5e5; }
+  background-color: #e5e5e5;
+  color: #{{ site.color.primary }}; }
 
 .tag_box a.active {
   background: #57A957;
