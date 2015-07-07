@@ -462,7 +462,7 @@ footer .footer-below {
   opacity: 0.9; }
 
 .tag_box.inline li {
-  float: left; }
+  float: left; margin-bottom: 32px; }
 
 .tag_box a {
   padding: 3px 6px;
