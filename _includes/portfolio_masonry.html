@@ -22,15 +22,14 @@
                                 </div>
                                 <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
-                            <!-- 查看全文 -->
-                            <div class="read-more">
-                                <a class="fa fa-link" href="#portfolioModal-{{ post.modal-id }}">  查看全文&hellip;</a>
-                            </div>
                         </div>
                     {% endfor %}
                 </div>
 
-                
+                <!-- 查看更多 -->
+                <div class="read-more">
+                    <a class="fa fa-link" href="#portfolioModal-{{ post.modal-id }}">  查看更多&hellip;</a>
+                </div>
                 <!-- Back to top -->
                 <a class="back-to-top" href="#top" style="display: inline;"></a>
             </article>  
