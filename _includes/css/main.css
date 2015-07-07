@@ -466,7 +466,7 @@ footer .footer-below {
 
 .tag_box a {
   padding: 3px 6px;
-  margin: 2px;
+  margin: 3px;
   background: #{{ site.color.primary }};
   color: #fff;
   border-radius: 5px;
@@ -475,7 +475,7 @@ footer .footer-below {
 
 .tag_box a span {
   vertical-align: super;
-  font-size: 0.9em; }
+  font-size: 0.8em; }
 
 .tag_box a:hover {
   background-color: #e5e5e5;
