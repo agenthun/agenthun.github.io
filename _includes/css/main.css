@@ -91,10 +91,8 @@ header .container {
 }
 
 header .container .row .col-lg-12 .circle {
-    border: 2px solid #fff;
     border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
+    border: 2px solid #fff;
 }
 
 header img {
