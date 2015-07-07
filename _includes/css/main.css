@@ -486,6 +486,23 @@ footer .footer-below {
   border: 1px solid #4c964d;
   color: #FFF; }
 
+.block {
+    zoom: 1;
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.dt-cat {
+    width: 1198px;
+    height: auto;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+
+.oh {
+    overflow: hidden;
+}
 
 .dt-cat-inner {
     display: table;
