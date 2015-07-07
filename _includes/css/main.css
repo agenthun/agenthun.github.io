@@ -105,12 +105,10 @@ header .container {
 }
 
 header .container .row .col-lg-12 .circle {
-    width: 42px;
-    height: 42px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 2px solid #fff;
-    display: inline-block;
-    vertical-align: middle
 }
 
 header img {
