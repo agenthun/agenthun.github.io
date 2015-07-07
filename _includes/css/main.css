@@ -496,7 +496,7 @@ footer .footer-below {
 .dt-cat {
     width: 1198px;
     height: auto;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #f1b7b7;
     background-color: #fff;
 }
 
@@ -522,4 +522,34 @@ footer .footer-below {
 .dt-cat-content {
     display: table-cell;
     width: 975px;
+}
+
+
+
+
+article {
+    display: block;
+}
+
+.page-direct {
+    width: 100%
+    margin: 20px auto 0;
+}
+
+.next-one {
+    float: right;
+}
+
+.back-to-top {
+    display: none;
+    width: 68px;
+    height: 68px;
+    background-image: url('http://static.zuimeia.com/product/img/backtotop.png');
+    background-repeat: no-repeat;
+    background-size: 160px 68px;
+    background-position: -89px 0;
+    position: fixed;
+    bottom: 180px;
+    right: 45px;
+    z-index: 1;
 }
