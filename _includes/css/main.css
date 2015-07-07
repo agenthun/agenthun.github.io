@@ -16,28 +16,23 @@ p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
+a, a:hover, a:focus, a:active, a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: # {
+        {
+            site.color.primary
+        }
+    }
+    ;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.star-light, hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -46,8 +41,7 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
+hr.star-light:after, hr.star-primary:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -63,15 +57,30 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: # {
+        {
+            site.color.primary
+        }
+    }
+    ;
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: # {
+        {
+            site.color.secondary
+        }
+    }
+    ;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: # {
+        {
+            site.color.secondary
+        }
+    }
+    ;
     background-color: #fff;
 }
 
@@ -82,7 +91,12 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: # {
+        {
+            site.color.primary
+        }
+    }
+    ;
 }
 
 header .container {
@@ -91,8 +105,12 @@ header .container {
 }
 
 header .container .row .col-lg-12 .circle {
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
-    border: 2px solid #fff
+    border: 2px solid #fff;
+    display: inline-block;
+    vertical-align: middle
 }
 
 header img {
@@ -103,7 +121,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -118,11 +136,9 @@ header .intro-text .skills {
         padding-top: 200px;
         padding-bottom: 100px;
     }
-
     header .intro-text .name {
         font-size: 4.75em;
     }
-
     header .intro-text .skills {
         font-size: 1.75em;
     }
@@ -135,18 +151,15 @@ header .intro-text .skills {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
-
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
-
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
@@ -154,7 +167,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -170,8 +183,7 @@ header .intro-text .skills {
     outline: 0;
 }
 
-.navbar-default,
-.navbar-inverse {
+.navbar-default, .navbar-inverse {
     border: 0;
 }
 
@@ -186,14 +198,18 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: # {
+        {
+            site.color.primary
+        }
+    }
+    ;
 }
 
 @media(max-width:767px) {
     section {
         padding: 75px 0;
     }
-
     section.first {
         padding-top: 75px;
     }
@@ -216,7 +232,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(24, 188, 156, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -241,8 +257,7 @@ section.success {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3, #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
@@ -265,12 +280,14 @@ section.success {
     transition: all .3s ease-in-out;
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: # {
+        {
+            site.color.primary
+        }
+    }
+    ;
     background: #fff;
 }
 
@@ -281,8 +298,7 @@ section.success {
     border-bottom: 1px solid #eee;
 }
 
-.floating-label-form-group input,
-.floating-label-form-group textarea {
+.floating-label-form-group input, .floating-label-form-group textarea {
     z-index: 1;
     position: relative;
     padding-right: 0;
@@ -306,10 +322,10 @@ section.success {
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
@@ -323,7 +339,12 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: # {
+        {
+            site.color.primary
+        }
+    }
+    ;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -340,7 +361,12 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: # {
+        {
+            site.color.secondary
+        }
+    }
+    ;
 }
 
 footer .footer-col {
@@ -349,7 +375,12 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: # {
+        {
+            site.color.secondary-dark
+        }
+    }
+    ;
 }
 
 .btn-social {
@@ -363,9 +394,7 @@ footer .footer-below {
     line-height: 45px;
 }
 
-.btn:focus,
-.btn:active,
-.btn.active {
+.btn:focus, .btn:active, .btn.active {
     outline: 0;
 }
 
@@ -433,7 +462,12 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: # {
+        {
+            site.color.secondary
+        }
+    }
+    ;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -443,7 +477,12 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: # {
+        {
+            site.color.secondary
+        }
+    }
+    ;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
