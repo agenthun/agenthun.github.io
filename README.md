@@ -1,1 +1,0 @@
-The blog based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
