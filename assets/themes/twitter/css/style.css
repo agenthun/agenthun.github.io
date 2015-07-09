@@ -4,6 +4,16 @@
   background:#fff; 
   }
 
+.page.card{
+    background:url("img/card_bg.jpg") repeat top center;
+}
+
+.read_more {
+  padding: 10px 20px;
+
+  background-color: #fff;
+}
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
