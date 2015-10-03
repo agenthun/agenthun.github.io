@@ -1,0 +1,26 @@
+---
+layout: page
+title: 分类
+header: Posts By Category
+group: navigation
+---
+{% include JB/setup %}
+
+<div class="section scrollspy" id="team">
+	<div class="container">
+		<ul class="tag_box inline text-capitalize">
+		  {% assign categories_list = site.categories %}
+		  {% include JB/categories_list %}
+		</ul>
+
+		{% for category in site.categories %} 
+		<div class="page card">
+		  <h2 class="header grey-text text-darken-3 list-h2 text-capitalize" id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+		  <ul class="list-h3">
+		    {% assign pages_list = category[1] %}  
+		    {% include JB/pages_list %}
+		  </ul>
+		  </div>
+		{% endfor %}
+	</div>
+</div>
