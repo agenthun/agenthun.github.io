@@ -17,5 +17,4 @@ tags : [Android, Blog]
 
 效果如下所示
 
-
 ![effect](/img/ChangSkin/effect.gif)
