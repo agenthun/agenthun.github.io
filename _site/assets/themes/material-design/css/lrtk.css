@@ -1,0 +1,6 @@
+
+/*body{background:url(../img/bg.png);color:#FFF}*/
+a{color:#FFF;}
+.actGotop{position:fixed; _position:absolute; bottom:100px; right:50px; width:150px; height:195px; display:none;}
+.actGotop a,.actGotop a:link{width:150px;height:195px;display:inline-block; background:url(../img/gotop.png) no-repeat; _background:url(../img/gotop.gif) no-repeat; outline:none;}
+.actGotop a:hover{width:150px; height:195px; background:url(../img/gotopd.gif) no-repeat; outline:none;}

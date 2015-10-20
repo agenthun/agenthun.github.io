@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+        <title>踏雪无痕d博客</title>
+        <description>踏雪无痕d博客 - agenthun</description>
+        <link>http://agenthun.github.io</link>
+        <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 16 Oct 2015 00:13:44 +0800</lastBuildDate>
+        <pubDate>Fri, 16 Oct 2015 00:13:44 +0800</pubDate>
+        <ttl>60</ttl>
+
+
+        <item>
+                <title>ChangeSkin</title>
+                <description>
+&lt;h1 id=&quot;section&quot;&gt;换肤插件&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/opensource/2015/0929/3534.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;基于插件式的Android换肤框架，支持app内和或者外部插件式提供资源的换肤方案，无需重启Activity.&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ChangeSkin/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/02/ChangeSkin/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/02/ChangeSkin</guid>
+                <pubDate>Fri, 02 Oct 2015 07:44:25 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>在RecyclerView上使用布局动画</title>
+                <description>
+&lt;h1 id=&quot;recyclerview&quot;&gt;在RecyclerView上使用布局动画&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0915/3462.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;对于RecyclerView, 一种斜对角线动画，让activity从上到下从左到右铺开。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/在RecyclerView上使用布局动画/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+
+</description>
+                <link>http://agenthun.github.io/%E7%9F%A5%E8%AF%86/2015/09/20/Layout_animations_on_RecyclerView/</link>
+                <guid>http://agenthun.github.io/%E7%9F%A5%E8%AF%86/2015/09/20/Layout_animations_on_RecyclerView</guid>
+                <pubDate>Sun, 20 Sep 2015 02:53:38 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>ToggleExpandLayout展开开关</title>
+                <description>
+&lt;h1 id=&quot;toggleexpandlayout&quot;&gt;ToggleExpandLayout展开开关&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/opensource/2015/0831/3392.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个可以用在设置界面的togglelayout。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ToggleExpandLayout展开开关/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/09/18/ToggleExpandLayout/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/09/18/ToggleExpandLayout</guid>
+                <pubDate>Fri, 18 Sep 2015 08:03:53 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>FoldingTabBar</title>
+                <description>
+&lt;h1 id=&quot;foldingtabbar&quot;&gt;FoldingTabBar&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/opensource/2015/0805/3264.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个tab菜单动画，可以扩展与折叠。根据Dribbble的效果图实现。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/FoldingTabBar/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/08/10/FoldingTabBar/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/08/10/FoldingTabBar</guid>
+                <pubDate>Mon, 10 Aug 2015 00:52:29 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>拟物,扁平,Material Design你真的区分出了</title>
+                <description>
+&lt;h1 id=&quot;material-design&quot;&gt;拟物,扁平,Material Design你真的区分出了&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/63d6011213d1&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/pic.png&quot; alt=&quot;区别&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;这篇文章本来只是篇写给同学看的短文——因为他一直认为“Android 从 4.0 开始就是扁平化设计了”….结果没想到这么想的人还不少，所以就写了这么一篇科普文，全篇偏小白，无干货，敬请放心阅读。&lt;/p&gt;
+
+&lt;h2 id=&quot;android-design-&quot;&gt;从 Android Design 说起&lt;/h2&gt;
+
+&lt;p&gt;仔细观察这个按钮，你发现了什么？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/button.png&quot; alt=&quot;Button&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这个按钮看上去是“扁平的”，对吗？但仔细观察这个按钮，你会发现一点——按钮的周围有一个像素的高光存在。&lt;/p&gt;
+
+&lt;p&gt;这就是 Android Design 强调的“拟真”风格了。“拟真”的本意是，保留控件本身的“立体”属性和光影效果，而去掉了对材质和样式的模仿。&lt;/p&gt;
+
+&lt;p&gt;说白了就是，以上图的按钮为例，它有厚度，有光影效果，但它看上去不像任何一个存在于现实世界里的按钮。&lt;/p&gt;
+
+&lt;p&gt;Google 在 Android Design 时代无数次地强调了“拟真”的重要性，“厚度”和“光影”这两个属性在大量的控件中都有体现。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/控件.png&quot; alt=&quot;控件&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“拟真”也成为了 Android Design 与 Windows Phone 代表的“扁平”和 iOS 6（及以下） 代表的“拟物”的最大差别，从下图中可以看出，相同的控件，三种设计语言之间的区别有多大。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/button区别.png&quot; alt=&quot;Button区别&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;综上所述，在 Android Design 时期，Google 强调的是“拟真”设计风格，这种风格代表的是对“厚度”和“光影”的模拟。&lt;/p&gt;
+
+&lt;h2 id=&quot;material-design-&quot;&gt;Material Design 时代到来&lt;/h2&gt;
+
+&lt;p&gt;从 iOS 7 开始，曾经由 Windows Phone 为代表的扁平化设计语言开始大行其道，曾经“拟物/扁平/拟真”的“三分天下”局面被彻底打破了。对于“Android 是否要使用扁平化设计语言”的讨论也从那时开始出现。然而 Google 选择了另辟蹊径，在 I/O 2014 大会上随 Android L 推出了代表 Google 全新设计语言的 Material Design。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/M1.png&quot; alt=&quot;Material Design&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;对于 Material Design 的误解也从这时开始出现了，有人先入为主地认为 Material Design 是扁平化的设计语言，是这样的吗？&lt;/p&gt;
+
+&lt;p&gt;要回答这个问题，我想先用之前看到的一个比喻来说明一下：&lt;/p&gt;
+
+&lt;p&gt;假设 iOS 6- 及现在的 Smartisan OS 代表的拟物化风格，代表着设计语言的一个极端：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/ios拟物.png&quot; alt=&quot;ios拟物&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;而 iOS 7+ 和 Windows Phone 等代表的扁平风格，代表着设计语言的另一个极端：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/flat扁平.png&quot; alt=&quot;flat扁平&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;那么 Material Design 就是从一个极端走到了另一个极端，之后往后退了一大步，到了一个“中间偏右”的位置。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/material.png&quot; alt=&quot;material&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;所以，Material Design 同样即不扁平，也不拟物——但是，它和上文里提到的“拟真”又是不一样的。简单来说，正如标题所述，扁而不平。&lt;/p&gt;
+
+&lt;p&gt;首先谈谈“扁”，Material Design 里的“Material”实际上是一种虚构出来的材料（这也是为什么它叫 Material Design 吧），这种材料的设定简单来说就是是：厚度无限薄，面积无限大，能变换造型，也能按照规律移动。那么既然无限薄了（Google 官方给出的数字是 1dp），那么厚度问题就自然而然地被淡化了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/三维环境下的 Material.png&quot; alt=&quot;三维环境下的 Material&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;不仅薄得不存在厚度问题，同时对于光影的诠释也有所变化，虽然 Material Design 中还存在一个主要光源和另外的环境光，但像上文里如此明显的对光源的体现你是没法看出来了：现在他们的作用，主要是为阴影创造条件。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/由不同的光源所体现的不同阴影.png&quot; alt=&quot;由不同的光源所体现的不同阴影&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;所以，Material Design 扁吗？当然扁了，没了厚度，还能不扁吗？&lt;/p&gt;
+
+&lt;p&gt;但平不平，又是另外一回事了。&lt;/p&gt;
+
+&lt;h2 id=&quot;material-&quot;&gt;三维的 Material 世界&lt;/h2&gt;
+
+&lt;p&gt;虽然每一块 Material 都是扁的，但他们所处的环境，其实是一个 3D 空间。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/拥有XYZ轴的三维空间.png&quot; alt=&quot;拥有XYZ轴的三维空间&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这意味着什么？所有处于 Material Design 设置的这个三维环境里的控件，都拥有 XYZ 三个维度。&lt;/p&gt;
+
+&lt;p&gt;Z轴维度代表着什么？对了，是高度。那么 Material Design 里，控件的高度代表着什么？&lt;/p&gt;
+
+&lt;p&gt;是层级关系。&lt;/p&gt;
+
+&lt;p&gt;相信有人一定见过这个动画，一块 Material 被抬起之后，其阴影显得比其他的 Material 都要深：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/Demo.png&quot; alt=&quot;Demo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;为什么会出现这种情况？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/M2.png&quot; alt=&quot;Material&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如上图所示，在屏幕里看上去平整的一个 App 界面，事实上不同控件之间都拥有着层级关系。在 Material Design 里，层级关系是很重要的，不同控件之间的层级关系会使用阴影作为表示，Google 提供了 5 种深度的阴影用于表示层级高低。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/1-5.png&quot; alt=&quot;1-5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;而阴影的深浅，代表的正是这个控件在 Z 轴的高度。&lt;/p&gt;
+
+&lt;p&gt;以下图为例，当上面那块 Material 的层级比另一块 Material 更高时，他的高度也从 2dp 提升至了 6dp，相应地其阴影也会比另一块更深。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/阴影.png&quot; alt=&quot;阴影&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这种逻辑恰恰符合了现实世界中的情况——假设你将两块木块并行排列在同一区域上，在光源不变的情况下，他们的阴影自然是相同的，当你抬起其中一块木块的时候，其所处的高度会比另一块高，阴影也会比另一块更深。&lt;/p&gt;
+
+&lt;p&gt;Google 将这种源于现实的逻辑大量应用于 Material Design 中，例如一个按钮，当你按下去的时候其会向上浮起，而后回落，阴影也会随之而变化，这时候你就像“抬起”了这个控件，短暂提高了其高度，而后你松开了手指，控件又会随着惯性下落。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/拟物,扁平,Material Design你真的区分出了/抬起-浮上-落下.png&quot; alt=&quot;抬起-浮上-落下&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;综上所述，Material Design 非但不“平”，反而还创造出了一个强调物理定律的三维世界。这和“扁平”是有很大区别的。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;综上所述，Material Design 并不是单纯的扁平化，它在保留了“扁”的控件的同时，采用了立体的虚拟空间。&lt;/p&gt;
+
+</description>
+                <link>http://agenthun.github.io/%E7%9F%A5%E8%AF%86/2015/07/19/Skeuomorph_Flat_MaterialDesign/</link>
+                <guid>http://agenthun.github.io/%E7%9F%A5%E8%AF%86/2015/07/19/Skeuomorph_Flat_MaterialDesign</guid>
+                <pubDate>Sun, 19 Jul 2015 18:25:15 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>34枚金币时间管理</title>
+                <description>
+&lt;h1 id=&quot;section&quot;&gt;34枚金币时间管理&lt;/h1&gt;
+
+&lt;p&gt;一款时间规划管理的手机APP。遵从Material Design设计风格，支持从上午7点到晚上24点间隔半小时设置计划安排，完成后即获得一枚金币。添加的计划安排按性质分成高效工作、尽兴娱乐、休息放松、强迫工作、无效拖延5种类型，以颜色区分便于用户查看。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/34枚金币时间管理/timer.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/agenthun/Timer&quot;&gt;github源码&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/07/15/timer/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/07/15/timer</guid>
+                <pubDate>Wed, 15 Jul 2015 00:00:00 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>Guillotine Menu铡刀菜单</title>
+                <description>
+&lt;h1 id=&quot;guillotine-menu&quot;&gt;Guillotine Menu铡刀菜单&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0618/3086.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;你可能已经阅读了关于设计师Vitaly Rubtsov 和ios开发者Maksym Lazebnyi 创建独特的top bar动画的故事，这个动画菜单被取了一个不吉利的名字 － 铡刀（断头台用的）菜单（你可以在Dribbble 和 GitHub上看到这个ios动画）。很快，我们的安卓开发工程师Dmytro Denysenko接受了在安卓上实现相同动画的挑战（可在GitHub上查看）。牛逼的是，他甚至都不知道自己会面临什么样的困难，也不知道自己要做多深的研究才能解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/Guillotine Menu铡刀菜单/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/07/13/Guillotine_Menu/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/07/13/Guillotine_Menu</guid>
+                <pubDate>Mon, 13 Jul 2015 00:00:00 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>我的New Blog</title>
+                <description>
+&lt;h1 id=&quot;blog-mblog--new-blog&quot;&gt;Blog mBlog = New Blog()&lt;/h1&gt;
+
+&lt;p&gt;经过数天的努力，我的第一篇博文终于可以开写了！&lt;/p&gt;
+
+&lt;p&gt;这里一样延续我的Geek风格，当然，原来的空间日志也会陆陆续续的转到这上面来。希望大家多多赏脸哦。&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/introduction/2015/07/11/welcome_to_my_new_blog/</link>
+                <guid>http://agenthun.github.io/introduction/2015/07/11/welcome_to_my_new_blog</guid>
+                <pubDate>Sat, 11 Jul 2015 00:00:00 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>一种下拉刷新效果</title>
+                <description>
+&lt;h1 id=&quot;section&quot;&gt;一种下拉刷新效果&lt;/h1&gt;
+
+&lt;p&gt;以夏日炎炎，荷叶漂浮为下拉刷新的主题，一直新颖的下拉刷新效果。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/一种下拉刷新效果/lotusleafrefresh.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/agenthun/LotusLeaf&quot;&gt;github源码&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/07/04/pull_to_refresh/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/07/04/pull_to_refresh</guid>
+                <pubDate>Sat, 04 Jul 2015 00:00:00 +0800</pubDate>
+        </item>
+
+
+</channel>
+</rss>
