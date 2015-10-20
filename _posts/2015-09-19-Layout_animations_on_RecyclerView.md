@@ -18,5 +18,3 @@ tags : [Android, Blog]
 效果如下所示
 
 ![effect](/img/在RecyclerView上使用布局动画/effect.gif)
-
-
