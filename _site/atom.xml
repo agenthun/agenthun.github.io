@@ -4,13 +4,31 @@
  <title>踏雪无痕d博客</title>
  <link href="http://agenthun.github.io/atom.xml" rel="self"/>
  <link href="http://agenthun.github.io"/>
- <updated>2015-10-16T00:13:44+08:00</updated>
+ <updated>2015-10-20T21:43:12+08:00</updated>
  <id>http://agenthun.github.io</id>
  <author>
    <name>agenthun</name>
    <email>hun333@126.com</email>
  </author>
 
+ 
+ <entry>
+   <title>YahooNewsOnboarding</title>
+   <link href="http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/21/YahooNewsOnboarding/"/>
+   <updated>2015-10-21T05:38:36+08:00</updated>
+   <id>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/21/YahooNewsOnboarding</id>
+   <content type="html">
+&lt;h1 id=&quot;section&quot;&gt;仿雅虎引导页&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/opensource/2015/1008/3551.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;模仿Yahoo News Digest（雅虎新闻摘要） App首屏引导界面。另外雅虎新闻摘要是一款非常不错的app，UI很赞。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/YahooNewsOnboarding/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>ChangeSkin</title>
@@ -45,7 +63,6 @@
 &lt;p&gt;效果如下所示&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/在RecyclerView上使用布局动画/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
-
 </content>
  </entry>
  

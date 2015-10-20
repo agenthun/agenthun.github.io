@@ -5,10 +5,28 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 16 Oct 2015 00:13:44 +0800</lastBuildDate>
-        <pubDate>Fri, 16 Oct 2015 00:13:44 +0800</pubDate>
+        <lastBuildDate>Tue, 20 Oct 2015 21:43:12 +0800</lastBuildDate>
+        <pubDate>Tue, 20 Oct 2015 21:43:12 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>YahooNewsOnboarding</title>
+                <description>
+&lt;h1 id=&quot;section&quot;&gt;仿雅虎引导页&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/opensource/2015/1008/3551.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;模仿Yahoo News Digest（雅虎新闻摘要） App首屏引导界面。另外雅虎新闻摘要是一款非常不错的app，UI很赞。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/YahooNewsOnboarding/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/21/YahooNewsOnboarding/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/21/YahooNewsOnboarding</guid>
+                <pubDate>Wed, 21 Oct 2015 05:38:36 +0800</pubDate>
+        </item>
 
         <item>
                 <title>ChangeSkin</title>
@@ -40,7 +58,6 @@
 &lt;p&gt;效果如下所示&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/在RecyclerView上使用布局动画/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
-
 </description>
                 <link>http://agenthun.github.io/%E7%9F%A5%E8%AF%86/2015/09/20/Layout_animations_on_RecyclerView/</link>
                 <guid>http://agenthun.github.io/%E7%9F%A5%E8%AF%86/2015/09/20/Layout_animations_on_RecyclerView</guid>
