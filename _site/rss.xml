@@ -5,10 +5,28 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 20 Oct 2015 21:43:12 +0800</lastBuildDate>
-        <pubDate>Tue, 20 Oct 2015 21:43:12 +0800</pubDate>
+        <lastBuildDate>Sat, 24 Oct 2015 01:06:29 +0800</lastBuildDate>
+        <pubDate>Sat, 24 Oct 2015 01:06:29 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>FlowingDrawer</title>
+                <description>
+&lt;h1 id=&quot;flowingdrawer&quot;&gt;FlowingDrawer&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/opensource/2015/1022/3608.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个弹性效果的抽屉菜单，灵感来自一张概念图，实际效果实现了70%，总的来说还算可以。又是一次贝塞尔曲线的应用。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/FlowingDrawer/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/24/FlowingDrawer/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/24/FlowingDrawer</guid>
+                <pubDate>Sat, 24 Oct 2015 08:51:50 +0800</pubDate>
+        </item>
 
         <item>
                 <title>YahooNewsOnboarding</title>
