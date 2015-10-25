@@ -18,4 +18,5 @@ tags : [Android, Blog]
 一个弹性效果的抽屉菜单，灵感来自一张概念图，实际效果实现了70%，总的来说还算可以。又是一次贝塞尔曲线的应用。
 
 效果如下所示
+
 ![effect](/img/FlowingDrawer/effect.gif)
