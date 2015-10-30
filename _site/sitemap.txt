@@ -6,6 +6,8 @@ http://agenthun.github.io/
 http://agenthun.github.io/rss.xml
 http://agenthun.github.io/sitemap.txt
 
+http://agenthun.github.io/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker/
+http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/26/AVLoadingIndicatorView/
 http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/24/FlowingDrawer/
 http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/21/YahooNewsOnboarding/
 http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/02/ChangeSkin/

@@ -5,10 +5,48 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 25 Oct 2015 17:30:32 +0800</lastBuildDate>
-        <pubDate>Sun, 25 Oct 2015 17:30:32 +0800</pubDate>
+        <lastBuildDate>Fri, 30 Oct 2015 17:56:54 +0800</lastBuildDate>
+        <pubDate>Fri, 30 Oct 2015 17:56:54 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>MaterialFilePicker</title>
+                <description>
+&lt;h1 id=&quot;materialfilepicker&quot;&gt;MaterialFilePicker&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/nbsp-team/MaterialFilePicker&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Materia风格的文件选择器。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/MaterialFilePicker/effect.png&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker/</link>
+                <guid>http://agenthun.github.io/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker</guid>
+                <pubDate>Sat, 31 Oct 2015 01:52:48 +0800</pubDate>
+        </item>
+
+        <item>
+                <title>AVLoadingIndicatorView</title>
+                <description>
+&lt;h1 id=&quot;avloadingindicatorview&quot;&gt;AVLoadingIndicatorView&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/81813780/AVLoadingIndicatorView&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Material Design Animation干货一枚&lt;/p&gt;
+
+&lt;p&gt;AVLoadingIndicatorView是一个实现了各种各样加载效果的库，每一种效果都很精美&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/AVLoadingIndicatorView/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/26/AVLoadingIndicatorView/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/26/AVLoadingIndicatorView</guid>
+                <pubDate>Mon, 26 Oct 2015 05:45:13 +0800</pubDate>
+        </item>
 
         <item>
                 <title>FlowingDrawer</title>

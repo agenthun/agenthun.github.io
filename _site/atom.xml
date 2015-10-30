@@ -4,13 +4,51 @@
  <title>踏雪无痕d博客</title>
  <link href="http://agenthun.github.io/atom.xml" rel="self"/>
  <link href="http://agenthun.github.io"/>
- <updated>2015-10-25T17:30:32+08:00</updated>
+ <updated>2015-10-30T17:56:54+08:00</updated>
  <id>http://agenthun.github.io</id>
  <author>
    <name>agenthun</name>
    <email>hun333@126.com</email>
  </author>
 
+ 
+ <entry>
+   <title>MaterialFilePicker</title>
+   <link href="http://agenthun.github.io/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker/"/>
+   <updated>2015-10-31T01:52:48+08:00</updated>
+   <id>http://agenthun.github.io/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker</id>
+   <content type="html">
+&lt;h1 id=&quot;materialfilepicker&quot;&gt;MaterialFilePicker&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/nbsp-team/MaterialFilePicker&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Materia风格的文件选择器。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/MaterialFilePicker/effect.png&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AVLoadingIndicatorView</title>
+   <link href="http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/26/AVLoadingIndicatorView/"/>
+   <updated>2015-10-26T05:45:13+08:00</updated>
+   <id>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/26/AVLoadingIndicatorView</id>
+   <content type="html">
+&lt;h1 id=&quot;avloadingindicatorview&quot;&gt;AVLoadingIndicatorView&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/81813780/AVLoadingIndicatorView&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Material Design Animation干货一枚&lt;/p&gt;
+
+&lt;p&gt;AVLoadingIndicatorView是一个实现了各种各样加载效果的库，每一种效果都很精美&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/AVLoadingIndicatorView/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>FlowingDrawer</title>
