@@ -4,13 +4,31 @@
  <title>踏雪无痕d博客</title>
  <link href="http://agenthun.github.io/atom.xml" rel="self"/>
  <link href="http://agenthun.github.io"/>
- <updated>2015-10-30T17:56:54+08:00</updated>
+ <updated>2015-11-02T15:38:10+08:00</updated>
  <id>http://agenthun.github.io</id>
  <author>
    <name>agenthun</name>
    <email>hun333@126.com</email>
  </author>
 
+ 
+ <entry>
+   <title>FoldableLayout</title>
+   <link href="http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/02/FoldableLayout/"/>
+   <updated>2015-11-02T23:33:39+08:00</updated>
+   <id>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/02/FoldableLayout</id>
+   <content type="html">
+&lt;h1 id=&quot;foldablelayout&quot;&gt;FoldableLayout&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/worldline/FoldableLayout&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;FoldableLayout是一个可折叠的布局，该布局可以包含两个子view，一个是封面，一个是详情。FoldableLayout处理好了这两个view之间的切换效果。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/FoldableLayout/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>MaterialFilePicker</title>

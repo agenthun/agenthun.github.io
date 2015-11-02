@@ -5,10 +5,28 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 30 Oct 2015 17:56:54 +0800</lastBuildDate>
-        <pubDate>Fri, 30 Oct 2015 17:56:54 +0800</pubDate>
+        <lastBuildDate>Mon, 02 Nov 2015 15:38:10 +0800</lastBuildDate>
+        <pubDate>Mon, 02 Nov 2015 15:38:10 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>FoldableLayout</title>
+                <description>
+&lt;h1 id=&quot;foldablelayout&quot;&gt;FoldableLayout&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/worldline/FoldableLayout&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;FoldableLayout是一个可折叠的布局，该布局可以包含两个子view，一个是封面，一个是详情。FoldableLayout处理好了这两个view之间的切换效果。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/FoldableLayout/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/02/FoldableLayout/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/02/FoldableLayout</guid>
+                <pubDate>Mon, 02 Nov 2015 23:33:39 +0800</pubDate>
+        </item>
 
         <item>
                 <title>MaterialFilePicker</title>
