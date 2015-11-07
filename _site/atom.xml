@@ -4,13 +4,110 @@
  <title>踏雪无痕d博客</title>
  <link href="http://agenthun.github.io/atom.xml" rel="self"/>
  <link href="http://agenthun.github.io"/>
- <updated>2015-11-02T15:38:10+08:00</updated>
+ <updated>2015-11-08T02:09:56+08:00</updated>
  <id>http://agenthun.github.io</id>
  <author>
    <name>agenthun</name>
    <email>hun333@126.com</email>
  </author>
 
+ 
+ <entry>
+   <title>SwipeDismissBehavior用法及实现原理</title>
+   <link href="http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/08/SwipeDismissBehavior/"/>
+   <updated>2015-11-08T09:50:29+08:00</updated>
+   <id>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/08/SwipeDismissBehavior</id>
+   <content type="html">
+&lt;h1 id=&quot;swipedismissbehavior&quot;&gt;SwipeDismissBehavior用法及实现原理&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/1103/3650.html&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;引文&lt;/h2&gt;
+&lt;p&gt;无意间发现design兼容库中有一个叫做SwipeDismissBehavior的类，顾名思义它就是用来实现滑动删除的了。莫非现在滑动删除又有更简单的解决办法了？鉴于之前RecyclerView中已经有ItemTouchHelper，而且也非常简单，所以很好奇到底有何不同，于是决定研究研究，看看它的实现原理以及应用场景：真的能替代其他的（不管是第三方还是RecyclerView自带的ItemTouchHelper）滑动删除吗？。&lt;/p&gt;
+
+&lt;p&gt;很不幸SwipeDismissBehavior现在的文档还很少，只有stackoverfolw上有点价值的讨论。&lt;/p&gt;
+
+&lt;p&gt;先来直接从API的角度使用SwipeDismissBehavior，然后再讲解SwipeDismissBehavior的原理。从而说明为什么SwipeDismissBehavior只能和CoordinatorLayout一起使用？为什么SwipeDismissBehavior对CoordinatorLayout中RecyclerView的item不起作用。&lt;/p&gt;
+
+&lt;h2 id=&quot;swipedismissbehavior-1&quot;&gt;SwipeDismissBehavior的用法&lt;/h2&gt;
+&lt;p&gt;SwipeDismissBehavior的用法非常简单。&lt;/p&gt;
+
+&lt;h3 id=&quot;design&quot;&gt;第一步：引入design库&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;compile &#39;com.android.support:appcompat-v7:23.1.0&#39;
+compile &#39;com.android.support:design:23+&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;viewcoordinatorlayout&quot;&gt;第二步：把要滑动删除的View放在CoordinatorLayout中&lt;/h3&gt;
+&lt;p&gt;xml代码：&lt;/p&gt;
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:id=&quot;@+id/coordinatorLayout&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;&amp;gt;
+ 
+    &amp;lt;TextView
+        android:id=&quot;@+id/swip&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;200dip&quot;
+        android:background=&quot;#32CD32&quot;
+        android:text=&quot;别删我&quot;
+        android:textSize=&quot;20dip&quot;
+        android:gravity=&quot;center&quot;
+    /&amp;gt;
+ 
+&amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;mainactivityviewswipedismissbehavior&quot;&gt;第三步：在MainActivity中为View设置一个SwipeDismissBehavior对象&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;package com.jcodecraeer.swipedismissbehaviordemo;
+ 
+import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.SwipeDismissBehavior;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.TextView;
+ 
+public class MainActivity extends AppCompatActivity {
+ 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        TextView swipeView = (TextView)findViewById(R.id.swip);
+        final SwipeDismissBehavior&amp;lt;View&amp;gt; swipe
+                = new SwipeDismissBehavior();
+ 
+        swipe.setSwipeDirection(
+                SwipeDismissBehavior.SWIPE_DIRECTION_ANY);
+ 
+        swipe.setListener(
+                new SwipeDismissBehavior.OnDismissListener() {
+                    @Override public void onDismiss(View view) {
+ 
+                    }
+ 
+                    @Override
+                    public void onDragStateChanged(int state) {}
+                });
+ 
+        CoordinatorLayout.LayoutParams coordinatorParams =
+                (CoordinatorLayout.LayoutParams) swipeView.getLayoutParams();
+ 
+        coordinatorParams.setBehavior(swipe);
+    }
+     
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;效果如下所示&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/SwipeDismissBehavior用法及实现原理/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>FoldableLayout</title>

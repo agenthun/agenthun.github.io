@@ -4,8 +4,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="theme-color" content="#2196F3">
-    <title>分类</title>
-    <!--  -->
+    <title>SwipeDismissBehavior用法及实现原理</title>
+    <!-- <meta name="description" content="design兼容库中SwipeDismissBehavior类，用来实现滑动删除"> -->
     <meta name="author" content="agenthun">
 
     <!-- Enable responsive viewport -->
@@ -78,7 +78,7 @@
     
       
       	
-      	<li class="active"><a href="/categories/" class="active">分类</a></li>
+      	<li><a href="/categories/">分类</a></li>
       	
       
     
@@ -111,241 +111,145 @@
       <div class="content">
         
 <!-- <div class="page-header">
-  <h1>分类 </h1>
+  <h1>SwipeDismissBehavior用法及实现原理 <small>Supporting tagline</small></h1>
 </div> -->
 
-<div class="row-fluid">
-  <div class="span12">
-    
+<div class="section scrollspy" id="archive">
+  <div class="container">
+        <div class="card card-padding">
+      <div class="span12">
+            <div class="date">
+              <span>08 November 2015</span>
+            </div>
+            <div class="content">
+              
+<h1 id="swipedismissbehavior">SwipeDismissBehavior用法及实现原理</h1>
 
-<div class="section scrollspy" id="team">
-	<div class="container">
-		<ul class="tag_box inline text-capitalize">
-		  
-		  
+<p><a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/1103/3650.html">原文</a></p>
 
+<h2 id="section">引文</h2>
+<p>无意间发现design兼容库中有一个叫做SwipeDismissBehavior的类，顾名思义它就是用来实现滑动删除的了。莫非现在滑动删除又有更简单的解决办法了？鉴于之前RecyclerView中已经有ItemTouchHelper，而且也非常简单，所以很好奇到底有何不同，于是决定研究研究，看看它的实现原理以及应用场景：真的能替代其他的（不管是第三方还是RecyclerView自带的ItemTouchHelper）滑动删除吗？。</p>
 
-  
+<p>很不幸SwipeDismissBehavior现在的文档还很少，只有stackoverfolw上有点价值的讨论。</p>
+
+<p>先来直接从API的角度使用SwipeDismissBehavior，然后再讲解SwipeDismissBehavior的原理。从而说明为什么SwipeDismissBehavior只能和CoordinatorLayout一起使用？为什么SwipeDismissBehavior对CoordinatorLayout中RecyclerView的item不起作用。</p>
+
+<h2 id="swipedismissbehavior-1">SwipeDismissBehavior的用法</h2>
+<p>SwipeDismissBehavior的用法非常简单。</p>
+
+<h3 id="design">第一步：引入design库</h3>
+<pre><code>compile 'com.android.support:appcompat-v7:23.1.0'
+compile 'com.android.support:design:23+'
+</code></pre>
+
+<h3 id="viewcoordinatorlayout">第二步：把要滑动删除的View放在CoordinatorLayout中</h3>
+<p>xml代码：</p>
+
+<?xml version="1.0" encoding="utf-8"?>
+<pre><code>&lt;android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"&gt;
+ 
+    &lt;TextView
+        android:id="@+id/swip"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:background="#32CD32"
+        android:text="别删我"
+        android:textSize="20dip"
+        android:gravity="center"
+    /&gt;
+ 
+&lt;/android.support.design.widget.CoordinatorLayout&gt;
+</code></pre>
+
+<h3 id="mainactivityviewswipedismissbehavior">第三步：在MainActivity中为View设置一个SwipeDismissBehavior对象</h3>
+<pre><code>package com.jcodecraeer.swipedismissbehaviordemo;
+ 
+import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.SwipeDismissBehavior;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.TextView;
+ 
+public class MainActivity extends AppCompatActivity {
+ 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        TextView swipeView = (TextView)findViewById(R.id.swip);
+        final SwipeDismissBehavior&lt;View&gt; swipe
+                = new SwipeDismissBehavior();
+ 
+        swipe.setSwipeDirection(
+                SwipeDismissBehavior.SWIPE_DIRECTION_ANY);
+ 
+        swipe.setListener(
+                new SwipeDismissBehavior.OnDismissListener() {
+                    @Override public void onDismiss(View view) {
+ 
+                    }
+ 
+                    @Override
+                    public void onDragStateChanged(int state) {}
+                });
+ 
+        CoordinatorLayout.LayoutParams coordinatorParams =
+                (CoordinatorLayout.LayoutParams) swipeView.getLayoutParams();
+ 
+        coordinatorParams.setBehavior(swipe);
+    }
      
-    	<li><a href="/categories.html#android开发-ref">
-    		android开发 <span>2</span>
-    	</a></li>
-     
-    	<li><a href="/categories.html#introduction-ref">
-    		introduction <span>1</span>
-    	</a></li>
-     
-    	<li><a href="/categories.html#android开源代码-ref">
-    		android开源代码 <span>9</span>
-    	</a></li>
-     
-    	<li><a href="/categories.html#知识-ref">
-    		知识 <span>2</span>
-    	</a></li>
-     
-    	<li><a href="/categories.html#android 开源代码-ref">
-    		android 开源代码 <span>1</span>
-    	</a></li>
-    
-  
+}
+</code></pre>
+
+<h2 id="section-1">效果如下所示</h2>
+
+<p><img src="/img/SwipeDismissBehavior用法及实现原理/effect.gif" alt="effect" /></p>
+
+            </div>
+        
+        <div class="pagination clearfix">
+          <ul class = "pull-right">
+          
+            <li class="prev"><a class="fa fa-arrow-circle-left" href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/02/FoldableLayout/" title="FoldableLayout"> 前一篇</a></li>
+          
+            <li><a class="fa fa-th" href="/archive"> 所有日志</a></li>
+          
+            <li class="next disabled"><a >后一篇 <span class="fa fa-arrow-circle-right">  </span></a>
+          
+          </ul>
+        </div>
+        <hr>
+        
 
 
-		</ul>
-
-		 
-		<div class="page card">
-		  <h2 class="header grey-text text-darken-3 list-h2 text-capitalize" id="android开发-ref">android开发</h2>
-		  <ul class="list-h3">
-		      
-		    
-
-
-  
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
     
-      
-      	
-      	<li><a href="/android%E5%BC%80%E5%8F%91/2015/07/15/timer/">34枚金币时间管理</a></li>
-      	
-      
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
     
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E5%8F%91/2015/07/04/pull_to_refresh/">一种下拉刷新效果</a></li>
-      	
-      
-    
-  
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 
-		  </ul>
-		  </div>
-		 
-		<div class="page card">
-		  <h2 class="header grey-text text-darken-3 list-h2 text-capitalize" id="introduction-ref">introduction</h2>
-		  <ul class="list-h3">
-		      
-		    
 
-
-  
-    
-      
-      	
-      	<li><a href="/introduction/2015/07/11/welcome_to_my_new_blog/">我的New Blog</a></li>
-      	
-      
-    
-  
-
-
-
-		  </ul>
-		  </div>
-		 
-		<div class="page card">
-		  <h2 class="header grey-text text-darken-3 list-h2 text-capitalize" id="android开源代码-ref">android开源代码</h2>
-		  <ul class="list-h3">
-		      
-		    
-
-
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/08/SwipeDismissBehavior/">SwipeDismissBehavior用法及实现原理</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/02/FoldableLayout/">FoldableLayout</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/26/AVLoadingIndicatorView/">AVLoadingIndicatorView</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/24/FlowingDrawer/">FlowingDrawer</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/21/YahooNewsOnboarding/">YahooNewsOnboarding</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/02/ChangeSkin/">ChangeSkin</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/09/18/ToggleExpandLayout/">ToggleExpandLayout展开开关</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/08/10/FoldingTabBar/">FoldingTabBar</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/07/13/Guillotine_Menu/">Guillotine Menu铡刀菜单</a></li>
-      	
-      
-    
-  
-
-
-
-		  </ul>
-		  </div>
-		 
-		<div class="page card">
-		  <h2 class="header grey-text text-darken-3 list-h2 text-capitalize" id="知识-ref">知识</h2>
-		  <ul class="list-h3">
-		      
-		    
-
-
-  
-    
-      
-      	
-      	<li><a href="/%E7%9F%A5%E8%AF%86/2015/09/20/Layout_animations_on_RecyclerView/">在RecyclerView上使用布局动画</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/%E7%9F%A5%E8%AF%86/2015/07/19/Skeuomorph_Flat_MaterialDesign/">拟物,扁平,Material Design你真的区分出了</a></li>
-      	
-      
-    
-  
-
-
-
-		  </ul>
-		  </div>
-		 
-		<div class="page card">
-		  <h2 class="header grey-text text-darken-3 list-h2 text-capitalize" id="android 开源代码-ref">android 开源代码</h2>
-		  <ul class="list-h3">
-		      
-		    
-
-
-  
-    
-      
-      	
-      	<li><a href="/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker/">MaterialFilePicker</a></li>
-      	
-      
-    
-  
-
-
-
-		  </ul>
-		  </div>
-		
-	</div>
-</div>
-
+      </div>
+    </div>
   </div>
 </div>
 
