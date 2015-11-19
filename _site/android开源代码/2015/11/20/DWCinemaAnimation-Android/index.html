@@ -4,8 +4,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="theme-color" content="#2196F3">
-    <title>SwipeDismissBehavior用法及实现原理</title>
-    <!-- <meta name="description" content="design兼容库中SwipeDismissBehavior类，用来实现滑动删除"> -->
+    <title>DWCinemaAnimation-Android</title>
+    <!-- <meta name="description" content="Android上电影购票的动效实现。作者在微博上看到@壹了人拾做的设计，实现了一个demo。"> -->
     <meta name="author" content="agenthun">
 
     <!-- Enable responsive viewport -->
@@ -111,7 +111,7 @@
       <div class="content">
         
 <!-- <div class="page-header">
-  <h1>SwipeDismissBehavior用法及实现原理 <small>Supporting tagline</small></h1>
+  <h1>DWCinemaAnimation-Android <small>Supporting tagline</small></h1>
 </div> -->
 
 <div class="section scrollspy" id="archive">
@@ -119,109 +119,31 @@
         <div class="card card-padding">
       <div class="span12">
             <div class="date">
-              <span>08 November 2015</span>
+              <span>20 November 2015</span>
             </div>
             <div class="content">
               
-<h1 id="swipedismissbehavior">SwipeDismissBehavior用法及实现原理</h1>
+<h1 id="dwcinemaanimation-android">DWCinemaAnimation-Android</h1>
 
-<p><a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/1103/3650.html">原文</a></p>
+<p><a href="https://github.com/DavidWangTM/DWCinemaAnimation-Android">原文</a></p>
 
-<h2 id="section">引文</h2>
-<p>无意间发现design兼容库中有一个叫做SwipeDismissBehavior的类，顾名思义它就是用来实现滑动删除的了。莫非现在滑动删除又有更简单的解决办法了？鉴于之前RecyclerView中已经有ItemTouchHelper，而且也非常简单，所以很好奇到底有何不同，于是决定研究研究，看看它的实现原理以及应用场景：真的能替代其他的（不管是第三方还是RecyclerView自带的ItemTouchHelper）滑动删除吗？。</p>
+<p>Android上电影购票的动效实现。作者在微博上看到@壹了人拾做的设计，实现了一个demo。</p>
 
-<p>很不幸SwipeDismissBehavior现在的文档还很少，只有stackoverfolw上有点价值的讨论。</p>
+<p>效果如下所示</p>
 
-<p>先来直接从API的角度使用SwipeDismissBehavior，然后再讲解SwipeDismissBehavior的原理。从而说明为什么SwipeDismissBehavior只能和CoordinatorLayout一起使用？为什么SwipeDismissBehavior对CoordinatorLayout中RecyclerView的item不起作用。</p>
+<p><img src="/img/DWCinemaAnimation-Android/effect.gif" alt="effect" /></p>
 
-<h2 id="swipedismissbehavior-1">SwipeDismissBehavior的用法</h2>
-<p>SwipeDismissBehavior的用法非常简单。</p>
-
-<h3 id="design">第一步：引入design库</h3>
-<pre><code>compile 'com.android.support:appcompat-v7:23.1.0'
-compile 'com.android.support:design:23+'
-</code></pre>
-
-<h3 id="viewcoordinatorlayout">第二步：把要滑动删除的View放在CoordinatorLayout中</h3>
-<p>xml代码：</p>
-
-<?xml version="1.0" encoding="utf-8"?>
-<pre><code>&lt;android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/coordinatorLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"&gt;
- 
-    &lt;TextView
-        android:id="@+id/swip"
-        android:layout_width="match_parent"
-        android:layout_height="200dip"
-        android:background="#32CD32"
-        android:text="别删我"
-        android:textSize="20dip"
-        android:gravity="center"
-    /&gt;
- 
-&lt;/android.support.design.widget.CoordinatorLayout&gt;
-</code></pre>
-
-<h3 id="mainactivityviewswipedismissbehavior">第三步：在MainActivity中为View设置一个SwipeDismissBehavior对象</h3>
-<pre><code>package com.jcodecraeer.swipedismissbehaviordemo;
- 
-import android.os.Bundle;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.SwipeDismissBehavior;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.TextView;
- 
-public class MainActivity extends AppCompatActivity {
- 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        TextView swipeView = (TextView)findViewById(R.id.swip);
-        final SwipeDismissBehavior&lt;View&gt; swipe
-                = new SwipeDismissBehavior();
- 
-        swipe.setSwipeDirection(
-                SwipeDismissBehavior.SWIPE_DIRECTION_ANY);
- 
-        swipe.setListener(
-                new SwipeDismissBehavior.OnDismissListener() {
-                    @Override public void onDismiss(View view) {
- 
-                    }
- 
-                    @Override
-                    public void onDragStateChanged(int state) {}
-                });
- 
-        CoordinatorLayout.LayoutParams coordinatorParams =
-                (CoordinatorLayout.LayoutParams) swipeView.getLayoutParams();
- 
-        coordinatorParams.setBehavior(swipe);
-    }
-     
-}
-</code></pre>
-
-<h2 id="section-1">效果如下所示</h2>
-
-<p><img src="/img/SwipeDismissBehavior用法及实现原理/effect.gif" alt="effect" /></p>
 
             </div>
         
         <div class="pagination clearfix">
           <ul class = "pull-right">
           
-            <li class="prev"><a class="fa fa-arrow-circle-left" href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/02/FoldableLayout/" title="FoldableLayout"> 前一篇</a></li>
+            <li class="prev"><a class="fa fa-arrow-circle-left" href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/08/SwipeDismissBehavior/" title="SwipeDismissBehavior用法及实现原理"> 前一篇</a></li>
           
             <li><a class="fa fa-th" href="/archive"> 所有日志</a></li>
           
-            <li class="next"><a  href="/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/20/DWCinemaAnimation-Android/" title="DWCinemaAnimation-Android">后一篇 <span class="fa fa-arrow-circle-right">  </span></a></li>
+            <li class="next disabled"><a >后一篇 <span class="fa fa-arrow-circle-right">  </span></a>
           
           </ul>
         </div>

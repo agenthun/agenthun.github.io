@@ -5,10 +5,29 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 08 Nov 2015 02:09:56 +0800</lastBuildDate>
-        <pubDate>Sun, 08 Nov 2015 02:09:56 +0800</pubDate>
+        <lastBuildDate>Thu, 19 Nov 2015 23:35:45 +0800</lastBuildDate>
+        <pubDate>Thu, 19 Nov 2015 23:35:45 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>DWCinemaAnimation-Android</title>
+                <description>
+&lt;h1 id=&quot;dwcinemaanimation-android&quot;&gt;DWCinemaAnimation-Android&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/DavidWangTM/DWCinemaAnimation-Android&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android上电影购票的动效实现。作者在微博上看到@壹了人拾做的设计，实现了一个demo。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/DWCinemaAnimation-Android/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/20/DWCinemaAnimation-Android/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/11/20/DWCinemaAnimation-Android</guid>
+                <pubDate>Fri, 20 Nov 2015 07:31:45 +0800</pubDate>
+        </item>
 
         <item>
                 <title>SwipeDismissBehavior用法及实现原理</title>
