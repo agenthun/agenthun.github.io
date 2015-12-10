@@ -5,10 +5,29 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 19 Nov 2015 23:35:45 +0800</lastBuildDate>
-        <pubDate>Thu, 19 Nov 2015 23:35:45 +0800</pubDate>
+        <lastBuildDate>Thu, 10 Dec 2015 18:03:32 +0800</lastBuildDate>
+        <pubDate>Thu, 10 Dec 2015 18:03:32 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>TapBarMenu</title>
+                <description>
+&lt;h1 id=&quot;tapbarmenu&quot;&gt;TapBarMenu&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/michaldrabik/TapBarMenu&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个”Tap Bar” 菜单。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/TapBarMenu/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/12/11/TapBarMenu/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/12/11/TapBarMenu</guid>
+                <pubDate>Fri, 11 Dec 2015 01:58:13 +0800</pubDate>
+        </item>
 
         <item>
                 <title>DWCinemaAnimation-Android</title>
