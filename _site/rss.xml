@@ -5,10 +5,28 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 10 Dec 2015 18:03:32 +0800</lastBuildDate>
-        <pubDate>Thu, 10 Dec 2015 18:03:32 +0800</pubDate>
+        <lastBuildDate>Wed, 16 Dec 2015 19:54:14 +0800</lastBuildDate>
+        <pubDate>Wed, 16 Dec 2015 19:54:14 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>FabDialogMorph</title>
+                <description>
+&lt;h1 id=&quot;fabdialogmorph&quot;&gt;FabDialogMorph&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hujiaweibujidao/FabDialogMorph&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fab 和 Dialog 之间的过渡效果.&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/FabDialogMorph/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/12/17/FabDialogMorph/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/12/17/FabDialogMorph</guid>
+                <pubDate>Thu, 17 Dec 2015 03:49:38 +0800</pubDate>
+        </item>
 
         <item>
                 <title>TapBarMenu</title>
