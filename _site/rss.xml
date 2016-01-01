@@ -5,10 +5,88 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 16 Dec 2015 19:54:14 +0800</lastBuildDate>
-        <pubDate>Wed, 16 Dec 2015 19:54:14 +0800</pubDate>
+        <lastBuildDate>Fri, 01 Jan 2016 23:41:28 +0800</lastBuildDate>
+        <pubDate>Fri, 01 Jan 2016 23:41:28 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>阅读路线</title>
+                <description>
+&lt;h1 id=&quot;section&quot;&gt;阅读路线&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;阅读 小清新&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;更新&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2015/12/24  Version 1.0 Beta&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;简介&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;在生活中，人们对于购买的书籍，往往在刚购买几日时会有极高的兴趣阅读，后来因为种种原因，就丢弃在一边，以至于最后自己都忘了买过这本书。针对这种情况，我们决定开发一款移动端应用，来帮助人们管理购买的书籍，做到物尽其用，让书籍不再只是摆设。用户使用它，可以进行读书计划安排, 定时提醒、阅读本地TXT电子书、添加读书笔记、获取好书资讯。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;分类&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;效率办公
+笔记
+阅读&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;截图&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/readingroutine.gif&quot; alt=&quot;readingroutine&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;首页&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_main.png&quot; alt=&quot;main&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;添加计划&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_routine.png&quot; alt=&quot;routine&quot; /&gt;
+&lt;img src=&quot;/img/阅读路线/r_routine_detail.png&quot; alt=&quot;routine_detail&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;添加笔记&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_notes.png&quot; alt=&quot;notes&quot; /&gt;
+&lt;img src=&quot;/img/阅读路线/r_notes_detail.png&quot; alt=&quot;notes_detail&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;txt&quot;&gt;阅读本地TXT文件&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_reading.png&quot; alt=&quot;reading&quot; /&gt;
+&lt;img src=&quot;/img/阅读路线/r_reading_txt.png&quot; alt=&quot;reading_txt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;豆瓣读书推荐&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_shopping.png&quot; alt=&quot;shopping&quot; /&gt;
+&lt;img src=&quot;/img/阅读路线/r_shopping_product.png&quot; alt=&quot;shopping_product&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;设置&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_setting.png&quot; alt=&quot;setting&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-10&quot;&gt;关于&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_about.png&quot; alt=&quot;about&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-11&quot;&gt;登陆用户&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_login.png&quot; alt=&quot;login&quot; /&gt;
+&lt;img src=&quot;/img/阅读路线/r_forget_pwd.png&quot; alt=&quot;forget_pwd&quot; /&gt;
+&lt;img src=&quot;/img/阅读路线/r_sign_up.png&quot; alt=&quot;sign_up&quot; /&gt;
+&lt;img src=&quot;/img/阅读路线/r_user.png&quot; alt=&quot;user&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;app&quot;&gt;下载APP&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/阅读路线/r_qr_code.png&quot; alt=&quot;qr_code&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.wandoujia.com/apps/com.agenthun.readingroutine&quot;&gt;豌豆荚&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://android.myapp.com/myapp/detail.htm?apkName=com.agenthun.readingroutine&quot;&gt;应用宝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-12&quot;&gt;原码&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/agenthun/Timer&quot;&gt;github源码&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/12/25/ReadingRoutine/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/12/25/ReadingRoutine</guid>
+                <pubDate>Fri, 25 Dec 2015 07:27:20 +0800</pubDate>
+        </item>
 
         <item>
                 <title>FabDialogMorph</title>
