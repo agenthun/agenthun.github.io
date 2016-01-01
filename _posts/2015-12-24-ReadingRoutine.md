@@ -6,7 +6,7 @@ category : Android开发
 description: 一款读书计划的手机APP
 img: readingroutine.gif
 tagline: "Supporting tagline"
-tags : [Android, Blog]
+tags : [Android, Blog, Release APP]
 ---
 {% include JB/setup %}
 # 阅读路线 
