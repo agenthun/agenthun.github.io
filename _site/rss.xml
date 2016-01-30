@@ -5,10 +5,28 @@
         <description>踏雪无痕d博客 - agenthun</description>
         <link>http://agenthun.github.io</link>
         <atom:link href="http://agenthun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 01 Jan 2016 23:41:28 +0800</lastBuildDate>
-        <pubDate>Fri, 01 Jan 2016 23:41:28 +0800</pubDate>
+        <lastBuildDate>Sat, 30 Jan 2016 16:24:01 +0800</lastBuildDate>
+        <pubDate>Sat, 30 Jan 2016 16:24:01 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>SmoothCheckBox</title>
+                <description>
+&lt;h1 id=&quot;smoothcheckbox&quot;&gt;SmoothCheckBox&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/andyxialm/SmoothCheckBox&quot;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android 带有切换动画的CheckBox。&lt;/p&gt;
+
+&lt;p&gt;效果如下所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/SmoothCheckBox/effect.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2016/01/31/SmoothCheckBox/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2016/01/31/SmoothCheckBox</guid>
+                <pubDate>Sun, 31 Jan 2016 00:19:37 +0800</pubDate>
+        </item>
 
         <item>
                 <title>阅读路线</title>
@@ -272,8 +290,8 @@ public class MainActivity extends AppCompatActivity {
 
 &lt;p&gt;&lt;img src=&quot;/img/MaterialFilePicker/effect.png&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
 </description>
-                <link>http://agenthun.github.io/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker/</link>
-                <guid>http://agenthun.github.io/android%C2%A0%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker</guid>
+                <link>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker/</link>
+                <guid>http://agenthun.github.io/android%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/2015/10/31/MaterialFilePicker</guid>
                 <pubDate>Sat, 31 Oct 2015 01:52:48 +0800</pubDate>
         </item>
 
