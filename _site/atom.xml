@@ -4,13 +4,86 @@
  <title>踏雪无痕d博客</title>
  <link href="http://agenthun.github.io/atom.xml" rel="self"/>
  <link href="http://agenthun.github.io"/>
- <updated>2016-01-30T16:24:01+08:00</updated>
+ <updated>2016-03-01T02:32:24+08:00</updated>
  <id>http://agenthun.github.io</id>
  <author>
    <name>agenthun</name>
    <email>hun333@126.com</email>
  </author>
 
+ 
+ <entry>
+   <title>ESeal UI界面设计</title>
+   <link href="http://agenthun.github.io/ui/2016/03/01/ESeal%20UI%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/"/>
+   <updated>2016-03-01T10:24:33+08:00</updated>
+   <id>http://agenthun.github.io/ui/2016/03/01/ESeal UI界面设计</id>
+   <content type="html">
+&lt;h1 id=&quot;eseal-ui&quot;&gt;ESeal UI界面设计&lt;/h1&gt;
+
+&lt;h1 id=&quot;seal-&quot;&gt;Seal 蓝牙锁&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Android APP UI设计
+Material Design&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;更新&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;2016/02/28  Version 1.0&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;配色&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;color name=&quot;colorPrimary&quot;&amp;gt;#30B9C1&amp;lt;/color&amp;gt;
+&amp;lt;color name=&quot;colorPrimaryDark&quot;&amp;gt;#0097A7&amp;lt;/color&amp;gt;
+&amp;lt;color name=&quot;colorAccent&quot;&amp;gt;#FCB830&amp;lt;/color&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;font color=#30B9C1 size=5&amp;gt;colorPrimary           #30B9C1&amp;lt;/font&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;font color=#0097A7 size=5&amp;gt;colorPrimaryDark   #0097A7&amp;lt;/font&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;font color=#FCB830 size=5&amp;gt;colorAccent            #FCB830&amp;lt;/font&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;分类&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;物流运输监控 安全&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;design-environment&quot;&gt;Design Environment&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Sketch 3.5, Roboto/Noto Sans CJK SC Font&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;how-it-looks&quot;&gt;How it looks&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;效果图0&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/ESeal - art.png&quot; alt=&quot;效果图0&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;货讯速查&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/main collapse.png&quot; alt=&quot;货讯速查&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;货讯速查-详&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/main expand.png&quot; alt=&quot;货讯速查-详&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;扫描设备&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/main scan device.png&quot; alt=&quot;扫描设备&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;设备操作&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/sub device operation.png&quot; alt=&quot;设备操作&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;设备配置&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/sub-sub device setting.png&quot; alt=&quot;设备配置&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;查询&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/main inquire.png&quot; alt=&quot;查询&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-10&quot;&gt;效果图1&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/Mockup-main expand.jpg&quot; alt=&quot;效果图1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-11&quot;&gt;效果图2&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/ESeal UI界面设计/Mockup-main scan devicepngg&quot; alt=&quot;效果图2&quot; /&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>SmoothCheckBox</title>
@@ -591,24 +664,6 @@ public class MainActivity extends AppCompatActivity {
 &lt;p&gt;经过数天的努力，我的第一篇博文终于可以开写了！&lt;/p&gt;
 
 &lt;p&gt;这里一样延续我的Geek风格，当然，原来的空间日志也会陆陆续续的转到这上面来。希望大家多多赏脸哦。&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>一种下拉刷新效果</title>
-   <link href="http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/07/04/pull_to_refresh/"/>
-   <updated>2015-07-04T00:00:00+08:00</updated>
-   <id>http://agenthun.github.io/android%E5%BC%80%E5%8F%91/2015/07/04/pull_to_refresh</id>
-   <content type="html">
-&lt;h1 id=&quot;section&quot;&gt;一种下拉刷新效果&lt;/h1&gt;
-
-&lt;p&gt;以夏日炎炎，荷叶漂浮为下拉刷新的主题，一直新颖的下拉刷新效果。&lt;/p&gt;
-
-&lt;p&gt;效果如下所示&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/一种下拉刷新效果/lotusleafrefresh.gif&quot; alt=&quot;effect&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/agenthun/LotusLeaf&quot;&gt;github源码&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
