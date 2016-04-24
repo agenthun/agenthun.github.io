@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+
+<!-- Main -->
+<section>
+    {% for post in site.posts limit:4 %}
+        <div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+               
+                <div class="mdl-card__media mdl-cell mdl-cell--12-col-tablet">
+                    <img class="article-image" src="img/{{ post.title }}/{{ post.img }} " border="0" alt="">
+                </div>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <h2 class="mdl-card__title-text"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+                    <div class="mdl-card__supporting-text padding-top">
+                        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                        <div id="tt1" class=" icon material-icons portfolio-share-btn">share</div>
+                        <div class="mdl-tooltip" for="tt1">
+                            Share via social media
+                        </div>
+                    </div>
+                    <div class="mdl-card__supporting-text no-left-padding">
+                        {{ post.excerpt }}
+                        <span>Category: <a href="#">{{ post.category }}</a></span>
+                    </div>
+                </div>
+        </div>
+    {% endfor %}
+
+    <nav class="demo-nav mdl-cell mdl-cell--12-col">
+        <div class="section-spacer"></div>
+        <a href="{{ BASE_PATH }}{{ post.url }}" class="demo-nav__button" title="show more">
+          More
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">arrow_forward</i>
+          </button>
+        </a>
+    </nav>
+</section>
