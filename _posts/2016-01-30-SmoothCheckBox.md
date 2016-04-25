@@ -8,7 +8,7 @@ img: effect.gif
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-# SmoothCheckBox
+###### SmoothCheckBox
 
 [原文](https://github.com/andyxialm/SmoothCheckBox)
 

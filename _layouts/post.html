@@ -77,24 +77,24 @@ layout: default
             <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
               <div class="minilogo"></div>
               <div>
-                <strong>agenthun</strong>
-                <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <strong>{{ page.date | date: "%b %-d, %Y" }}</strong>
+                <span class="mdl-badge">{% for tag in page.tags %}{{ tag }} {% endfor %}</span>
               </div>
               <div class="section-spacer"></div>
               <div class="meta__favorites">
-                425 <i class="material-icons" role="presentation">favorite</i>
-                <span class="visuallyhidden">favorites</span>
+                425
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                  <i class="material-icons">favorite</i>
+                </button>
               </div>
-              <div>
-                <i class="material-icons" role="presentation">bookmark</i>
-                <span class="visuallyhidden">bookmark</span>
-              </div>
-              <div>
-                <i class="material-icons" role="presentation">share</i>
-                <span class="visuallyhidden">share</span>
-              </div>
+              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                <i class="material-icons">bookmark</i>
+              </button>
+              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                <i class="material-icons">share</i>
+              </button>
             </div>
-            <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+            <div class="mdl-color-text--grey-700 post">
             {{ content }}
             </div>
           </div>
@@ -105,7 +105,7 @@ layout: default
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
               </button>
-              Newer
+              Older
             </a>
             {% endif %}
             
@@ -113,7 +113,7 @@ layout: default
 
             {% if page.next %}
             <a href="{{ page.next.url }}" class="demo-nav__button">
-              Older
+              Newer
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_forward</i>
               </button>
