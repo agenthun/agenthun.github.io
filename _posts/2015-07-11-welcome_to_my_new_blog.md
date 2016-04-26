@@ -8,7 +8,7 @@ img: avatar.jpg
 tagline: "Supporting tagline"
 tags : [Introduction, Blog]
 ---
-#Blog mBlog = New Blog()
+Blog mBlog = New Blog()
 
 经过数天的努力，我的第一篇博文终于可以开写了！
 

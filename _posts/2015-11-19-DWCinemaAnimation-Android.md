@@ -8,13 +8,11 @@ img: effect.gif
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-# DWCinemaAnimation-Android
-
 [原文](https://github.com/DavidWangTM/DWCinemaAnimation-Android)
 
 Android上电影购票的动效实现。作者在微博上看到@壹了人拾做的设计，实现了一个demo。
 
 效果如下所示
 
-![effect](/img/DWCinemaAnimation-Android/effect.gif)
+<img src="/img/DWCinemaAnimation-Android/effect.gif" title="effect" width="240" height="auto">
 

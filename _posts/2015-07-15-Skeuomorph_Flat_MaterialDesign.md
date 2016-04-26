@@ -1,50 +1,50 @@
 ---
 layout: post
 title: 拟物,扁平,Material Design你真的区分出了
-date: 2015-07-19 10:25:15
+date: 2015-07-15 10:25:15
 category : 知识
 description: 拟物,扁平,Material Design 三种设计风格的区别
 img: pic.png
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-#拟物,扁平,Material Design你真的区分出了
-
 [原文](http://www.jianshu.com/p/63d6011213d1)
 
-![区别](/img/拟物,扁平,Material Design你真的区分出了/pic.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/pic.png" title="区别" width="480" height="auto">
 
-##前言
+# 前言
 
 这篇文章本来只是篇写给同学看的短文——因为他一直认为“Android 从 4.0 开始就是扁平化设计了”....结果没想到这么想的人还不少，所以就写了这么一篇科普文，全篇偏小白，无干货，敬请放心阅读。
 
-##从 Android Design 说起
+# 从 Android Design 说起
 
 仔细观察这个按钮，你发现了什么？
 
-![Button](/img/拟物,扁平,Material Design你真的区分出了/button.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/button.png" title="Button" width="360" height="auto">
 
 这个按钮看上去是“扁平的”，对吗？但仔细观察这个按钮，你会发现一点——按钮的周围有一个像素的高光存在。
 
-这就是 Android Design 强调的“拟真”风格了。“拟真”的本意是，保留控件本身的“立体”属性和光影效果，而去掉了对材质和样式的模仿。
+这就是 Android Design
+
+强调的“拟真”风格了。“拟真”的本意是，保留控件本身的“立体”属性和光影效果，而去掉了对材质和样式的模仿。
 
 说白了就是，以上图的按钮为例，它有厚度，有光影效果，但它看上去不像任何一个存在于现实世界里的按钮。
 
 Google 在 Android Design 时代无数次地强调了“拟真”的重要性，“厚度”和“光影”这两个属性在大量的控件中都有体现。
 
-![控件](/img/拟物,扁平,Material Design你真的区分出了/控件.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/控件.png" title="控件" width="360" height="auto">
 
 “拟真”也成为了 Android Design 与 Windows Phone 代表的“扁平”和 iOS 6（及以下） 代表的“拟物”的最大差别，从下图中可以看出，相同的控件，三种设计语言之间的区别有多大。
 
-![Button区别](/img/拟物,扁平,Material Design你真的区分出了/button区别.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/Button区别.png" title="Button区别" width="360" height="auto">
 
 综上所述，在 Android Design 时期，Google 强调的是“拟真”设计风格，这种风格代表的是对“厚度”和“光影”的模拟。
 
-##Material Design 时代到来
+# Material Design 时代到来
 
 从 iOS 7 开始，曾经由 Windows Phone 为代表的扁平化设计语言开始大行其道，曾经“拟物/扁平/拟真”的“三分天下”局面被彻底打破了。对于“Android 是否要使用扁平化设计语言”的讨论也从那时开始出现。然而 Google 选择了另辟蹊径，在 I/O 2014 大会上随 Android L 推出了代表 Google 全新设计语言的 Material Design。
 
-![Material Design](/img/拟物,扁平,Material Design你真的区分出了/M1.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/M1.png" title="Material Design" width="360" height="auto">
 
 对于 Material Design 的误解也从这时开始出现了，有人先入为主地认为 Material Design 是扁平化的设计语言，是这样的吗？
 
@@ -52,35 +52,35 @@ Google 在 Android Design 时代无数次地强调了“拟真”的重要性，
 
 假设 iOS 6- 及现在的 Smartisan OS 代表的拟物化风格，代表着设计语言的一个极端：
 
-![ios拟物](/img/拟物,扁平,Material Design你真的区分出了/ios拟物.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/ios拟物.png" title="ios拟物" width="360" height="auto">
 
 而 iOS 7+ 和 Windows Phone 等代表的扁平风格，代表着设计语言的另一个极端：
 
-![flat扁平](/img/拟物,扁平,Material Design你真的区分出了/flat扁平.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/flat扁平.png" title="flat扁平" width="360" height="auto">
 
 那么 Material Design 就是从一个极端走到了另一个极端，之后往后退了一大步，到了一个“中间偏右”的位置。
 
-![material](/img/拟物,扁平,Material Design你真的区分出了/material.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/material.png" title="material" width="360" height="auto">
 
 所以，Material Design 同样即不扁平，也不拟物——但是，它和上文里提到的“拟真”又是不一样的。简单来说，正如标题所述，扁而不平。
 
 首先谈谈“扁”，Material Design 里的“Material”实际上是一种虚构出来的材料（这也是为什么它叫 Material Design 吧），这种材料的设定简单来说就是是：厚度无限薄，面积无限大，能变换造型，也能按照规律移动。那么既然无限薄了（Google 官方给出的数字是 1dp），那么厚度问题就自然而然地被淡化了。
 
-![三维环境下的 Material](/img/拟物,扁平,Material Design你真的区分出了/三维环境下的 Material.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/三维环境下的 Material.png" title="三维环境下的 Material" width="360" height="auto">
 
 不仅薄得不存在厚度问题，同时对于光影的诠释也有所变化，虽然 Material Design 中还存在一个主要光源和另外的环境光，但像上文里如此明显的对光源的体现你是没法看出来了：现在他们的作用，主要是为阴影创造条件。
 
-![由不同的光源所体现的不同阴影](/img/拟物,扁平,Material Design你真的区分出了/由不同的光源所体现的不同阴影.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/由不同的光源所体现的不同阴影.png" title="由不同的光源所体现的不同阴影" width="360" height="auto">
 
 所以，Material Design 扁吗？当然扁了，没了厚度，还能不扁吗？
 
 但平不平，又是另外一回事了。
 
-##三维的 Material 世界
+# 三维的 Material 世界
 
 虽然每一块 Material 都是扁的，但他们所处的环境，其实是一个 3D 空间。
 
-![拥有XYZ轴的三维空间](/img/拟物,扁平,Material Design你真的区分出了/拥有XYZ轴的三维空间.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/拥有XYZ轴的三维空间.png" title="拥有XYZ轴的三维空间" width="360" height="auto">
 
 这意味着什么？所有处于 Material Design 设置的这个三维环境里的控件，都拥有 XYZ 三个维度。
 
@@ -90,31 +90,32 @@ Z轴维度代表着什么？对了，是高度。那么 Material Design 里，�
 
 相信有人一定见过这个动画，一块 Material 被抬起之后，其阴影显得比其他的 Material 都要深：
 
-![Demo](/img/拟物,扁平,Material Design你真的区分出了/Demo.png)
+
+<img src="/img/拟物,扁平,Material Design你真的区分出了/Demo.gif" title="Demo" width="360" height="auto">
 
 为什么会出现这种情况？
 
-![Material](/img/拟物,扁平,Material Design你真的区分出了/M2.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/M2.png" title="Material" width="360" height="auto">
 
 如上图所示，在屏幕里看上去平整的一个 App 界面，事实上不同控件之间都拥有着层级关系。在 Material Design 里，层级关系是很重要的，不同控件之间的层级关系会使用阴影作为表示，Google 提供了 5 种深度的阴影用于表示层级高低。
 
-![1-5](/img/拟物,扁平,Material Design你真的区分出了/1-5.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/1-5.png" title="图1-5" width="360" height="auto">
 
 而阴影的深浅，代表的正是这个控件在 Z 轴的高度。
 
 以下图为例，当上面那块 Material 的层级比另一块 Material 更高时，他的高度也从 2dp 提升至了 6dp，相应地其阴影也会比另一块更深。
 
-![阴影](/img/拟物,扁平,Material Design你真的区分出了/阴影.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/阴影.png" title="阴影" width="360" height="auto">
 
 这种逻辑恰恰符合了现实世界中的情况——假设你将两块木块并行排列在同一区域上，在光源不变的情况下，他们的阴影自然是相同的，当你抬起其中一块木块的时候，其所处的高度会比另一块高，阴影也会比另一块更深。
 
 Google 将这种源于现实的逻辑大量应用于 Material Design 中，例如一个按钮，当你按下去的时候其会向上浮起，而后回落，阴影也会随之而变化，这时候你就像“抬起”了这个控件，短暂提高了其高度，而后你松开了手指，控件又会随着惯性下落。
 
-![抬起-浮上-落下](/img/拟物,扁平,Material Design你真的区分出了/抬起-浮上-落下.png)
+<img src="/img/拟物,扁平,Material Design你真的区分出了/抬起-浮上-落下.png" title="抬起-浮上-落下" width="360" height="auto">
 
 综上所述，Material Design 非但不“平”，反而还创造出了一个强调物理定律的三维世界。这和“扁平”是有很大区别的。
 
-##总结
+# 总结
 
 综上所述，Material Design 并不是单纯的扁平化，它在保留了“扁”的控件的同时，采用了立体的虚拟空间。
 

@@ -8,7 +8,7 @@ img: effect.gif
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-# 换肤插件
+换肤插件
 
 [原文](http://www.jcodecraeer.com/a/opensource/2015/0929/3534.html)
 
@@ -16,4 +16,4 @@ tags : [Android, Blog]
 
 效果如下所示
 
-![effect](/img/ChangeSkin/effect.gif)
+<img src="/img/ChangeSkin/effect.gif" title="effect" width="240" height="auto">

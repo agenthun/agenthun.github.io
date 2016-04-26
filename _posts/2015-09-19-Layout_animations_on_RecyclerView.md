@@ -8,12 +8,10 @@ img: effect.gif
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-# 在RecyclerView上使用布局动画
-
 [原文](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0915/3462.html)
 
 对于RecyclerView, 一种斜对角线动画，让activity从上到下从左到右铺开。
 
 效果如下所示
 
-![effect](/img/在RecyclerView上使用布局动画/effect.gif)
+<img src="/img/在RecyclerView上使用布局动画/effect.gif" title="effect" width="240" height="auto">

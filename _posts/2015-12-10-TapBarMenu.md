@@ -8,13 +8,10 @@ img: effect.gif
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-# TapBarMenu
-
 [原文](https://github.com/michaldrabik/TapBarMenu)
 
 一个"Tap Bar" 菜单。
 
 效果如下所示
 
-![effect](/img/TapBarMenu/effect.gif)
-
+<img src="/img/TapBarMenu/effect.gif" title="effect" width="240" height="auto">

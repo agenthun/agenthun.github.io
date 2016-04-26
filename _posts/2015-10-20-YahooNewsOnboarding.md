@@ -8,7 +8,7 @@ img: effect.gif
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-# 仿雅虎引导页
+仿雅虎引导页
 
 [原文](http://www.jcodecraeer.com/a/opensource/2015/1008/3551.html)
 
@@ -16,4 +16,4 @@ tags : [Android, Blog]
 
 效果如下所示
 
-![effect](/img/YahooNewsOnboarding/effect.gif)
+<img src="/img/YahooNewsOnboarding/effect.gif" title="effect" width="240" height="auto">

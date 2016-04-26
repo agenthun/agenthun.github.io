@@ -8,12 +8,10 @@ img: effect.png
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-# MaterialFilePicker
-
- [原文](https://github.com/nbsp-team/MaterialFilePicker)
+[原文](https://github.com/nbsp-team/MaterialFilePicker)
 
 Materia风格的文件选择器。
 
 效果如下所示
 
-![effect](/img/MaterialFilePicker/effect.png)
+<img src="/img/MaterialFilePicker/effect.png" title="effect" width="240" height="auto">

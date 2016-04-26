@@ -8,12 +8,10 @@ img: effect.gif
 tagline: "Supporting tagline"
 tags : [Android, Blog]
 ---
-###### SmoothCheckBox
-
 [原文](https://github.com/andyxialm/SmoothCheckBox)
 
 Android 带有切换动画的CheckBox。
 
 效果如下所示
 
-![effect](/img/SmoothCheckBox/effect.gif)
+<img src="/img/SmoothCheckBox/effect.gif" title="effect" width="240" height="auto">
