@@ -1,5 +1,7 @@
 # Site settings
 
+timezone: nil
+
 title: 踏雪无痕d博客 # Title of your site
 email: hun333@126.com # Your contant email
 
