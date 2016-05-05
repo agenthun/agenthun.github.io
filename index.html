@@ -14,7 +14,7 @@ layout: default
                 <div class="mdl-cell mdl-cell--8-col">
                     <h2 class="mdl-card__title-text"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
                     <div class="mdl-card__supporting-text padding-top">
-                        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                        <p class="post-meta">{{ post.date | date: "%Y年%m月%d日" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
                         <!-- <div id="tt1" class=" icon material-icons portfolio-share-btn">share</div> -->
 
                         <div id="tt1" class="mdl-card__menu">
@@ -28,7 +28,7 @@ layout: default
                     </div>
                     <div class="mdl-card__supporting-text no-left-padding">
                         {{ post.excerpt }} 
-                        <span>Category: <a href="#">{{ post.category }}</a></span>
+                        <span>标签: <a href="#">{{ post.category }}</a></span>
                     </div>
                 </div>
         </div>
@@ -36,8 +36,8 @@ layout: default
 
     <nav class="demo-nav mdl-cell mdl-cell--12-col">
         <div class="section-spacer"></div>
-        <a href="{{ BASE_PATH }}{{ post.url }}" class="demo-nav__button" title="show more">
-          More
+        <a href="archive.html" class="demo-nav__button" title="show more">
+          更多
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
             <i class="material-icons" role="presentation">arrow_forward</i>
           </button>

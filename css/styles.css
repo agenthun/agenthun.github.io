@@ -758,6 +758,10 @@ table{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collaps
   background-image: url('images/example-blog06.jpg');
 }
 
+/*.mdl-card__media .about {
+  background-image: url('images/about-header.jpg');
+}*/
+
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;

@@ -1,0 +1,16 @@
+---
+layout: blog
+---
+
+{% include JB/setup %}
+
+{% assign posts_collate = site.posts %}
+<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+<!-- 	<div class="mdl-card__title">
+		<h2 class="mdl-card__title-text">目录</h2>
+	</div>
+	<div class="mdl-card__media">
+		<img class="article-image" src="images/about-header.jpg" border="0" alt="">
+	</div> -->
+	{% include JB/posts_collate %}
+</div>
