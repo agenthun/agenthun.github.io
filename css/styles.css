@@ -319,7 +319,7 @@ body .demo-blog {
   cursor: pointer;
   /*margin-left: 12px;*/
 }
-.demo-blog .mdl-card .meta.meta--fill {
+.demo-blog .mdl-card .meta .meta--fill {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -755,9 +755,12 @@ table{position:relative;border:1px solid rgba(0,0,0,.12);border-collapse:collaps
 }
 
 .on-the-road-again .mdl-card__media {
-  background-image: url('images/example-blog06.jpg');
+  background-image: url(images/example-blog06.jpg);
 }
 
+.category_list__item {
+  background-image: url(images/header-bg.jpg);
+}
 /*.mdl-card__media .about {
   background-image: url('images/about-header.jpg');
 }*/

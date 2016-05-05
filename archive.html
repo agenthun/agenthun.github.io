@@ -5,11 +5,21 @@ layout: blog
 {% include JB/setup %}
 
 {% assign posts_collate = site.posts %}
+
 <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+	<div class="meta meta--fill category_list__item">
+		<ul class="mdl-mini-footer__link-list mdl-list__item mdl-color-text--grey-600">
+			{% for category in site.categories order:ascending %}
+				<div class="mdl-card__subtitle-text no-padding">
+					<li><a href="#"><span class="mdl-badge" data-badge="{{ category | last | size }}">{{ category | first }}</	span></a></li>
+				</div>
+			{% endfor %}
+		</ul>
+	</div>
 <!-- 	<div class="mdl-card__title">
 		<h2 class="mdl-card__title-text">目录</h2>
-	</div>
-	<div class="mdl-card__media">
+	</div> -->
+<!-- 	<div class="mdl-card__media">
 		<img class="article-image" src="images/about-header.jpg" border="0" alt="">
 	</div> -->
 	{% include JB/posts_collate %}

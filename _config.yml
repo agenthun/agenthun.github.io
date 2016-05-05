@@ -6,10 +6,8 @@ title: 踏雪无痕d博客 # Title of your site
 email: hun333@126.com # Your contant email
 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
+  走你认定了的路吧，不要耽搁了自己的行程
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://agenthun.github.io" # the base hostname & protocol for your site
 
 # Social links.
