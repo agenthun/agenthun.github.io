@@ -11,7 +11,7 @@ layout: blog
 		<ul class="mdl-mini-footer__link-list mdl-list__item mdl-color-text--grey-600">
 			{% for category in site.categories order:ascending %}
 				<div class="mdl-card__subtitle-text no-padding">
-					<li><a href="#"><span class="mdl-badge" data-badge="{{ category | last | size }}">{{ category | first }}</	span></a></li>
+					<li><a href="#"><span class="mdl-badge" data-badge="{{ category | last | size }}">{{ category | first }}</span></a></li>
 				</div>
 			{% endfor %}
 		</ul>
