@@ -1,0 +1,16 @@
+---
+layout: post
+title: T-MVP
+date: 2016-05-23 22:29:06
+category: Android开源代码
+description: 泛型解藕下的MVP大瘦身
+img: effect.png
+tags: [Android]
+---
+[原文](https://github.com/north2014/T-MVP)
+
+泛型解藕下的MVP大瘦身。
+
+效果如下所示
+
+<img src="/img/T-MVP/effect.png" title="effect" width="240" height="auto">

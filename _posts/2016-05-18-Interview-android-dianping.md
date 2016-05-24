@@ -34,6 +34,7 @@ tags: [面试, 实习]
 * 值传递，引用传递
 * handler，looper,looper.prepare()是哪类线程处理消息
 * View绘制流程，ViewGroup区别及其绘制流程
+* invalidate(), postInvalidate()
 * dp与ps区别
 * 屏幕尺寸适配(百分比布局PercentRelativeLayout、PercentFrameLayout，最近的谷歌响应式布局控件FlexboxLayout)
 * 项目中用到的图片资源从哪来
