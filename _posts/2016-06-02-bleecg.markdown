@@ -1,0 +1,72 @@
+---
+layout: post
+title: BleECG
+date: 2016-06-02 22:59:09
+category: Android开发
+description: 基于Material Design设计的心率计
+img: ecg_wave.png
+tags: [Android]
+---
+# 心电
+> 蓝牙心率计 Material Design
+
+# 更新
+> 2016/05/31  Version 1.0
+> 
+# 简介
+> 自助式心率检测，APP可显示心电图及心率，对心率进行监控、心脏健康状况的提示
+
+# 分类
+> 智能医疗
+
+# 截图
+
+## 硬件设备 腕带式设计
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/device1.jpg" title="device1">
+    </div>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/device2.jpg" title="device2">
+    </div>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/device3.jpg" title="device3">
+    </div>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/device4.jpg" title="device4">
+    </div>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/device5.jpg" title="device5">
+    </div>
+</div>
+
+## 扫描设备
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/scan_device_result.png" title="scan_device_result">
+    </div>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/scan_device_connect.png" title="scan_device_connect">
+    </div>
+</div>
+
+## 心电图显示
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/ecg_wave.png" title="ecg_wave">
+    </div>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/ecg_wave_recording.png" title="ecg_wave_recording">
+    </div>
+</div>
+
+## 心电数据分析
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/ecg_helper_1.png" title="ecg_helper_1">
+    </div>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+        <img class="article-image" src="/img/BleECG/ecg_helper_2.png" title="ecg_helper_2">
+    </div>
+</div>
+
