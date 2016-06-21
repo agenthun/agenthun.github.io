@@ -17,6 +17,7 @@ tags: [面试, 实习]
 
 * [快速Android开发系列网络篇之Retrofit](http://www.cnblogs.com/angeldevil/p/3757335.html)
 * [Handler](http://www.cnblogs.com/mengdd/p/3601294.html)
+* [Handler](http://www.jcodecraeer.com/a/anzhuokaifa/2016/0531/4313.html)
 * [面经](http://mp.weixin.qq.com/s?__biz=MzAxMTc3NjE2NQ==&mid=465722181&idx=3&sn=0eb3df92a3baf859ba42a98cdc727c60&scene=0#wechat_redirect)
 * [面经](http://www.nowcoder.com/discuss/3122?type=2&order=0&pos=6&page=2)
 * [面经](http://www.nowcoder.com/discuss/3043?type=2&order=0&pos=5&page=2)
